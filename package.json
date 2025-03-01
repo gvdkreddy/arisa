@@ -1,0 +1,69 @@
+{
+    
+  "dependencies": {
+    "@top-gg/sdk": "^3.1.3",
+    "ascii-table": "^0.0.9",
+    "axios": "latest",
+    "canvafy": "^7.0.4",
+    "cpu-stat": "^2.0.1",
+    "delay": "^5.0.0",
+    "discord-hybrid-sharding": "^2.1.0",
+    "discord.js": "^14.10.2",
+    "fs": "^0.0.1-security",
+    "genius-lyrics-api": "latest",
+    "i": "^0.3.7",
+    "kazagumo": "^2.3.2",
+    "kazagumo-deezer": "^1.2.1",
+    "kazagumo-spotify": "^1.1.5",
+    "lavasfy": "^2.3.0",
+    "lodash": "^4.17.21",
+    "lyrics-finder": "^21.7.0",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "moongose": "latest",
+    "ms": "^2.1.3",
+    "muzicard": "^2.6.1",
+    "node-fetch": "latest",
+    "npm": "^10.3.0",
+    "radio-browser": "latest",
+    "quickmongo": "^5.2.0",
+    "shoukaku": "^3.3.1",
+    "systeminformation": "^5.17.8",
+    "topgg-autoposter": "^2.0.1",
+    "uuid": "^9.0.0"
+  },
+  "name": "arisa",
+  "version": "2.5.2",
+  "description": "best music bot discord",
+  "main": "src/sharding.js",
+  "scripts": {
+    "test": "src/sharding.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvdkreddy69"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "music",
+    "bot",
+    "247bot",
+    "discord-music",
+    "247-music-bot",
+    "best-music-bot",
+    "lavamusic",
+    "lavasfy",
+    "spotify",
+    "apple",
+    "music",
+    "deezer",
+    "youtube-music"
+  ],
+  "author": "G V D K REDDY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gvdkreddy69"
+  },
+  "homepage": "https://github.com/gvdkreddy69"
+}

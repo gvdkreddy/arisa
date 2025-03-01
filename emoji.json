@@ -1,0 +1,44 @@
+{
+    "tick" : "<a:tick_kastro:1064407263000936469>",
+    "cross" : "<a:wrong_kastro:1064407309482205184>",
+    "arrow" : "<a:arrow_kastro:1064408073478869002>",
+    "rightarrow" : "<a:arrow_kastro:1064408073478869002>",
+    
+    "owner" : "<:event_kastro:1064437428888281138>",
+    "dev" : "<:dev_kastro:1064440907723702323>",
+    "codev" : "<:admin:1075829444075343922>",
+    "admin" : "<:utility:1069995695089647686>",
+    "mod" : "<:Icon_Mod:1075829413217841295>",
+    "staff" : "<:staff_icon:1075830173007614024>",
+    "nop" : "<:giveaway_kastro:1064433461831680060>",
+  
+    "ping" :" <:ping_kastro:1064433484501876826>",
+    "uptime" : "<a:Uptime_kastro:1064407247628816494>",
+    "time" : "<:kronix_Clock:1075038934171656222>",
+    "home" : "<:home_kastro:1064407258164887562>",
+  
+    "author" : "<:kronixCrown:1075039553976549386>",
+    "users" : "<:kronix_member:1075040201195393074>",
+    "queue" : "<:kronixqueue:1075041107039244308>",
+    "avon" : "<:kronix:1064766653994377246>",
+    "shufflebutton" : "<:astoria_shuffle:1193143493544136775>",
+    "skipbutton" : "<:astoria_skip:1193775342272389140>",
+    "previousbutton" : "<:astoria_previous:1193775439387316274>",
+    "rewindbutton" : "<:astoria_rewind:1193143591091052555>",
+    "forwardbutton" : "<:astoria_forward:1193143726403498045>",
+    "skip": "<:right_icons:1072152663233400934>",
+    "previous": "<:labs_left:1072152225092206623>",
+    "playing": "<a:_dance:1068187581029826590>",
+  
+    "friend" : "<:icons_friends:1075829083260325929>",
+    "vip" : "<:VIP_Icon:1075828917568553072>",
+    "bug" : "<:BugHunter_icone:1075828638768967720>",
+    "voter" : "<:kronixVoters:1075042628325883954>",
+    "supporter" : "<:icons_earlysupporter:1075830281304551495>",
+  
+    "music" : "<:music__kastro:1064440924190539888>",
+    "filters" : "<:stars_kastro:1064433446044315728>",
+    "info" : "<:exclamation_kastro:1064433487337242665>",
+    "settings" : "<:settings:1064535947145912341>",
+    "allCommands" : "<:reason:1069993657085735042>"
+}
