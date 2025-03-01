@@ -1,0 +1,49 @@
+const { PermissionsBitField, EmbedBuilder } = require("discord.js");
+const AvonClientEvent = require("../../structures/Eventhandler");
+
+class PlayerDestroy extends AvonClientEvent{
+    get name(){
+        return 'playerDestroy'
+    }
+    async run(player){
+        try{ player.data.get('music').delete()
+           
+           } catch(e) {}
+        let guild = this.client.guilds.cache.get(player.guildId);
+        if(!guild) return;
+        let db = await this.client.data.get(`${guild.id}-247`);
+        if(!db) return;
+        if(db === `disabled`)
+        {
+            return;
+        }
+        if(db === `enabled`)
+        {
+            let channel = guild.channels.cache.get(await this.client.data.get(`${guild.id}-voice`))
+            if(!channel){
+                this.client.data.delete(`${guild.id}-text`);
+                this.client.data.delete(`${guild.id}-voice`);
+                return
+            }
+            if(guild.members.me.permissions.has([PermissionsBitField.Flags.Connect,PermissionsBitField.Flags.Speak]))
+            {
+                try{
+                    let text = guild.channels.cache.get(await this.client.data.get(`${guild.id}-text`));
+                this.client.poru.createPlayer({
+                    guildId : guild.id,
+                    textId : text.id,
+                    voiceId : channel.id,
+                    deaf : true,
+                    volume : 69,
+                    shardId : guild.shardId
+                });
+            } catch(e) { this.client.data.set(`${guild.id}-247`,`disabled`); this.client.data.delete(`${guild.id}-text`); this.client.data.delete(`${guild.id}-voice`); return}
+            }
+            else{
+                this.client.data.delete(`${guild.id}-text`);
+                this.client.data.delete(`${guild.id}-voice`);
+            }
+        }
+    }
+}
+module.exports = PlayerDestroy;
