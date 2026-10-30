@@ -1,19 +1,19 @@
 {
-    "token" : "MTAyNzgyODY5NzgyODQzMzk4MA.G5zdwY.13xQx-aKB4ZlWD_WB6c7Dv_gie-aykN3RmNQBE",
+    "token" : "",
     "prefix" : "+",
     "color" : "#8f15cf",
     "owners" : ["1057674644905279498", "924144335535091744", "1180995684380459018"],
-    "errors" : "https://discord.com/api/webhooks/1153023442749227138/ObBhmxTxsCRjvNF7TELRo-uc2h73ty82YIUfZzfcNtuI3dfiSSYtp4ZI7PkmeOWz6Czz",
-    "spotifyId" : "9906724f83af443cb8d9617261c97ff3",
-    "mongourl" : "mongodb+srv://replit59:test123@test.rwqm0vz.mongodb.net/?retryWrites=true&w=majority",
-    "spotifySecret" : "1f2bfab3b90541c3866078941016a0e6",
-    "topggapi" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMjc4Mjg2OTc4Mjg0MzM5ODAiLCJib3QiOnRydWUsImlhdCI6MTY5NTIyMDY2NH0.ht0ipara08mbNeFWA_dgr-q68Bfk3HpXCjEtPFlRVRo",
+    "errors" : "https://discord.com/api/webhooks/",
+    "spotifyId" : "",
+    "mongourl" : "mongodb+srv://",
+    "spotifySecret" : "",
+    "topggapi" : "",
     "server" : "https://discord.gg/aMC2e8zgQb",
     "nodes" : [
     
      {
-        "id" : "Avon",
-        "url" : "node.raidenbot.xyz:5500",
+        "id" : "",
+        "url" : "",
         "auth" : "pwd",
         "secure" : false 
     }]
