@@ -4,9 +4,9 @@ module.exports = client;
 
 const mongoose = require("mongoose");
 const { Database } = require("quickmongo");
-client.db = new Database("mongodb+srv://replit59:test123@test.rwqm0vz.mongodb.net/?retryWrites=true&w=majority");
+client.db = new Database("mongodb+srv://");
 const dbOptions ={ useNewUrlParser:true, autoIndex:false, useUnifiedTopology:true }
-mongoose.connect('mongodb+srv://replit59:test123@test.rwqm0vz.mongodb.net/?retryWrites=true&w=majority',dbOptions)
+mongoose.connect('mongodb+srv://',dbOptions)
 mongoose.connection.on("connected",()=>{
  console.log("Kronix | Mongoose connected")
 })
